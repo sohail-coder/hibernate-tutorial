@@ -8,6 +8,7 @@ public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    for incrementing from a certain number use  alter TABLE AUTO_INCREMENT=1000
     @Column(name="id")
     private int id;
 
